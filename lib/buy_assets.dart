@@ -27,7 +27,7 @@ class _buy_screenState extends State<buy_screen>
       'platform': 'USV',
       'name': 'LUSV',
       'quantity': 0,
-      'unitCost': 39000000000,
+      'unitCost': 268821836,
       'tppu': 110.0,
       'tppu1': 110.0,
       'FtotalCost': 0,
@@ -38,7 +38,7 @@ class _buy_screenState extends State<buy_screen>
       'platform': 'USV',
       'name': 'Sea Hunter',
       'quantity': 0,
-      'unitCost': 6000000000,
+      'unitCost': 41453928,
       'tppu': 60.0,
       'tppu1': 60.0,
       'FtotalCost': 0,
@@ -49,7 +49,7 @@ class _buy_screenState extends State<buy_screen>
       'platform': 'USV',
       'name': 'CUSV',
       'quantity': 0,
-      'unitCost': 800000000,
+      'unitCost': 5527190,
       'tppu': 1.8,
       'tppu1': 1.8,
       'FtotalCost': 0,
@@ -60,7 +60,7 @@ class _buy_screenState extends State<buy_screen>
       'platform': 'USV',
       'name': 'GARC',
       'quantity': 0,
-      'unitCost': 200000000,
+      'unitCost': 1381798,
       'tppu': 1.8,
       'tppu1': 1.8,
       'FtotalCost': 0,
@@ -71,7 +71,7 @@ class _buy_screenState extends State<buy_screen>
       'platform': 'USV',
       'name': 'Triton',
       'quantity': 0,
-      'unitCost': 300000000,
+      'unitCost': 2072696,
       'tppu': 0.9,
       'tppu1': 0.9,
       'FtotalCost': 0,
@@ -82,7 +82,7 @@ class _buy_screenState extends State<buy_screen>
       'platform': 'USV',
       'name': 'Bluebottle',
       'quantity': 0,
-      'unitCost': 100000000,
+      'unitCost': 690899,
       'tppu': 0.9,
       'tppu1': 0.9,
       'FtotalCost': 0,
@@ -93,7 +93,7 @@ class _buy_screenState extends State<buy_screen>
       'platform': 'UUV',
       'name': 'Orca',
       'quantity': 0,
-      'unitCost': 15000000000,
+      'unitCost': 103634820,
       'tppu': 15.0,
       'tppu1': 15.0,
       'FtotalCost': 0,
@@ -104,7 +104,7 @@ class _buy_screenState extends State<buy_screen>
       'platform': 'UUV',
       'name': 'Speartooth',
       'quantity': 0,
-      'unitCost': 1000000000,
+      'unitCost': 6908988,
       'tppu': 7.5,
       'tppu1': 7.5,
       'FtotalCost': 0,
@@ -115,7 +115,7 @@ class _buy_screenState extends State<buy_screen>
       'platform': 'UUV',
       'name': 'Knifefish',
       'quantity': 0,
-      'unitCost': 1000000000,
+      'unitCost': 6908988,
       'tppu': 0.8,
       'tppu1': 0.8,
       'FtotalCost': 0,
@@ -126,7 +126,7 @@ class _buy_screenState extends State<buy_screen>
       'platform': 'UUV',
       'name': 'Remus 300',
       'quantity': 0,
-      'unitCost': 300000000,
+      'unitCost': 2072696,
       'tppu': 0.4,
       'tppu1': 0.4,
       'FtotalCost': 0,
@@ -137,7 +137,7 @@ class _buy_screenState extends State<buy_screen>
       'platform': 'UAS',
       'name': 'MQ-4',
       'quantity': 0,
-      'unitCost': 38000000000,
+      'unitCost': 262541544,
       'tppu': 36.0,
       'tppu1': 36.0,
       'FtotalCost': 0,
@@ -148,7 +148,7 @@ class _buy_screenState extends State<buy_screen>
       'platform': 'UAS',
       'name': 'MQ-9',
       'quantity': 0,
-      'unitCost': 4000000000,
+      'unitCost': 27635952,
       'tppu': 22.0,
       'tppu1': 22.0,
       'FtotalCost': 0,
@@ -159,7 +159,7 @@ class _buy_screenState extends State<buy_screen>
       'platform': 'UAS',
       'name': 'MQ-25',
       'quantity': 0,
-      'unitCost': 23000000000,
+      'unitCost': 158906724,
       'tppu': 30.0,
       'tppu1': 30.0,
       'FtotalCost': 0,
@@ -170,7 +170,7 @@ class _buy_screenState extends State<buy_screen>
       'platform': 'UAS',
       'name': 'MQ-8',
       'quantity': 0,
-      'unitCost': 5000000000,
+      'unitCost': 34544940,
       'tppu': 15.0,
       'tppu1': 15.0,
       'FtotalCost': 0,
@@ -181,7 +181,7 @@ class _buy_screenState extends State<buy_screen>
       'platform': 'UAS',
       'name': 'Altius 600',
       'quantity': 0,
-      'unitCost': 16000000,
+      'unitCost': 110544,
       'tppu': 0.04,
       'tppu1': 0.04,
       'FtotalCost': 0,
@@ -192,7 +192,7 @@ class _buy_screenState extends State<buy_screen>
       'platform': 'UAS',
       'name': 'Coyote',
       'quantity': 0,
-      'unitCost': 2000000,
+      'unitCost': 13818,
       'tppu': 0.04,
       'tppu1': 0.04,
       'FtotalCost': 0,
@@ -571,11 +571,11 @@ class _buy_screenState extends State<buy_screen>
                                     ),
                                   ),
                                   DataCell(Text(row['FunitCost'] != 0
-                                      ? '¥${row['FunitCost']}'
-                                      : '¥${row['unitCost']}')),
+                                      ? '\$${row['FunitCost']}'
+                                      : '\$${row['unitCost']}')),
                                   DataCell(Text(row['FtotalCost'] != 0
-                                      ? '¥${row['FtotalCost']}'
-                                      : '¥${row['quantity'] * row['unitCost']}')),
+                                      ? '\$${row['FtotalCost']}'
+                                      : '\$${row['quantity'] * row['unitCost']}')),
                                   DataCell(
                                     TextField(
                                       controller: _controllers1[
@@ -671,21 +671,21 @@ class _buy_screenState extends State<buy_screen>
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    'Allocated Budget: ¥$_allocatedBudget',
+                                    'Allocated Budget: \$$_allocatedBudget',
                                     style: GoogleFonts.robotoSlab(
                                         fontWeight: FontWeight.bold,
                                         fontSize: 16.0),
                                   ),
                                   SizedBox(height: 5),
                                   Text(
-                                    'Used Budget: ¥${_allocatedBudget - _usedBudget}',
+                                    'Used Budget: \$${_allocatedBudget - _usedBudget}',
                                     style: GoogleFonts.robotoSlab(
                                         fontWeight: FontWeight.bold,
                                         fontSize: 16.0),
                                   ),
                                   SizedBox(height: 5),
                                   Text(
-                                    'Remaining Budget: ¥${_allocatedBudget - _usedBudget}',
+                                    'Remaining Budget: \$${_allocatedBudget - _usedBudget}',
                                     style: GoogleFonts.robotoSlab(
                                         fontWeight: FontWeight.bold,
                                         fontSize: 16.0),
@@ -713,7 +713,7 @@ class _buy_screenState extends State<buy_screen>
                                         fontSize: 16.0,
                                       )),
                                   SizedBox(height: 5),
-                                  Text('Used Personnel: $_usedPersonnel2',
+                                  Text('Used Personnel: $_usedPersonnel2.',
                                       style: GoogleFonts.robotoSlab(
                                         fontWeight: FontWeight.bold,
                                         fontSize: 16.0,
@@ -829,20 +829,6 @@ class _buy_screenState extends State<buy_screen>
                 ],
               ),
             ),
-            // Padding(
-            //                     padding: const EdgeInsets.all(16),
-            //                     child: Row(
-            // mainAxisAlignment: MainAxisAlignment.spaceAround,
-            // children: [
-            //   ElevatedButton(
-            //       onPressed: () {}, child: const Text('Edit Allocated Budget')),
-            //   ElevatedButton(
-            //       onPressed: () {},
-            //       child: const Text('Edit Allocated Personnel')),
-            //
-            // ],
-            //                     ),
-            //                   )
           ])),
     ));
   }

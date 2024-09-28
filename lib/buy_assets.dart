@@ -25,9 +25,9 @@ class _buy_screenState extends State<buy_screen>
   final List<Map<String, dynamic>> _tableData = [
     {
       'platform': 'USV',
-      'name': 'LUSV',
+      'name': '3000 T MUSV',
       'quantity': 0,
-      'unitCost': 268821836,
+      'unitCost': 50000000,
       'tppu': 110.0,
       'tppu1': 110.0,
       'FtotalCost': 0,
@@ -36,169 +36,137 @@ class _buy_screenState extends State<buy_screen>
     },
     {
       'platform': 'USV',
-      'name': 'Sea Hunter',
+      'name': '100 T MUSV',
       'quantity': 0,
-      'unitCost': 41453928,
-      'tppu': 60.0,
-      'tppu1': 60.0,
+      'unitCost': 30000000,
+      'tppu': 110.0,
+      'tppu1': 110.0,
       'FtotalCost': 0,
       'FunitCost': 0,
       'image': 'seahunter.jpg'
     },
     {
       'platform': 'USV',
-      'name': 'CUSV',
+      'name': '6-12m Class sUSV',
       'quantity': 0,
-      'unitCost': 5527190,
-      'tppu': 1.8,
-      'tppu1': 1.8,
+      'unitCost': 5500000,
+      'tppu': 9,
+      'tppu1': 9,
       'FtotalCost': 0,
       'FunitCost': 0,
       'image': 'cusv.jpg'
     },
     {
       'platform': 'USV',
-      'name': 'GARC',
+      'name': '2-5m Class sUSV',
       'quantity': 0,
-      'unitCost': 1381798,
-      'tppu': 1.8,
-      'tppu1': 1.8,
+      'unitCost': 1500000,
+      'tppu': 9,
+      'tppu1': 9,
       'FtotalCost': 0,
       'FunitCost': 0,
       'image': 'garc.jpg'
     },
     {
       'platform': 'USV',
-      'name': 'Triton',
+      'name': 'Sail sUSV',
       'quantity': 0,
-      'unitCost': 2072696,
-      'tppu': 0.9,
-      'tppu1': 0.9,
+      'unitCost': 700000,
+      'tppu': 9,
+      'tppu1': 9,
       'FtotalCost': 0,
       'FunitCost': 0,
       'image': 'triton.jpg'
     },
     {
-      'platform': 'USV',
-      'name': 'Bluebottle',
+      'platform': 'UUV',
+      'name': 'XLAUV',
       'quantity': 0,
-      'unitCost': 690899,
-      'tppu': 0.9,
-      'tppu1': 0.9,
+      'unitCost': 50000000,
+      'tppu': 220,
+      'tppu1': 220,
       'FtotalCost': 0,
       'FunitCost': 0,
       'image': 'bluebottle.jpg'
     },
     {
       'platform': 'UUV',
-      'name': 'Orca',
+      'name': 'LUUV',
       'quantity': 0,
-      'unitCost': 103634820,
-      'tppu': 15.0,
-      'tppu1': 15.0,
+      'unitCost': 7000000,
+      'tppu': 60,
+      'tppu1': 60,
       'FtotalCost': 0,
       'FunitCost': 0,
       'image': 'orca.jpg'
     },
     {
       'platform': 'UUV',
-      'name': 'Speartooth',
+      'name': 'MUUV',
       'quantity': 0,
-      'unitCost': 6908988,
-      'tppu': 7.5,
-      'tppu1': 7.5,
+      'unitCost': 7000000,
+      'tppu': 12,
+      'tppu1': 12,
       'FtotalCost': 0,
       'FunitCost': 0,
       'image': 'speartooth.jpg'
     },
     {
       'platform': 'UUV',
-      'name': 'Knifefish',
+      'name': 'SUUV',
       'quantity': 0,
-      'unitCost': 6908988,
-      'tppu': 0.8,
-      'tppu1': 0.8,
+      'unitCost': 500000,
+      'tppu': 12,
+      'tppu1': 12,
       'FtotalCost': 0,
       'FunitCost': 0,
       'image': 'knifefish.jpg'
     },
     {
-      'platform': 'UUV',
-      'name': 'Remus 300',
+      'platform': 'UAS',
+      'name': 'HALE UAS',
       'quantity': 0,
-      'unitCost': 2072696,
-      'tppu': 0.4,
-      'tppu1': 0.4,
+      'unitCost': 300000000,
+      'tppu': 144,
+      'tppu1': 144,
       'FtotalCost': 0,
       'FunitCost': 0,
       'image': 'remus300.jpg'
     },
     {
       'platform': 'UAS',
-      'name': 'MQ-4',
+      'name': 'MALE UAS',
       'quantity': 0,
-      'unitCost': 262541544,
-      'tppu': 36.0,
-      'tppu1': 36.0,
+      'unitCost': 30000000,
+      'tppu': 132,
+      'tppu1': 132,
       'FtotalCost': 0,
       'FunitCost': 0,
       'image': 'mq4.jpg'
     },
     {
       'platform': 'UAS',
-      'name': 'MQ-9',
+      'name': 'CCA',
       'quantity': 0,
-      'unitCost': 27635952,
-      'tppu': 22.0,
-      'tppu1': 22.0,
+      'unitCost': 10000000,
+      'tppu': 100,
+      'tppu1': 100,
       'FtotalCost': 0,
       'FunitCost': 0,
       'image': 'mq9.jpg'
     },
     {
       'platform': 'UAS',
-      'name': 'MQ-25',
+      'name': 'sUAS',
       'quantity': 0,
-      'unitCost': 158906724,
-      'tppu': 30.0,
-      'tppu1': 30.0,
+      'unitCost': 100000,
+      'tppu': 6,
+      'tppu1': 6,
       'FtotalCost': 0,
       'FunitCost': 0,
       'image': 'mq25.jpg'
     },
-    {
-      'platform': 'UAS',
-      'name': 'MQ-8',
-      'quantity': 0,
-      'unitCost': 34544940,
-      'tppu': 15.0,
-      'tppu1': 15.0,
-      'FtotalCost': 0,
-      'FunitCost': 0,
-      'image': 'mq8.jpg'
-    },
-    {
-      'platform': 'UAS',
-      'name': 'Altius 600',
-      'quantity': 0,
-      'unitCost': 110544,
-      'tppu': 0.04,
-      'tppu1': 0.04,
-      'FtotalCost': 0,
-      'FunitCost': 0,
-      'image': 'altius600.jpg'
-    },
-    {
-      'platform': 'UAS',
-      'name': 'Coyote',
-      'quantity': 0,
-      'unitCost': 13818,
-      'tppu': 0.04,
-      'tppu1': 0.04,
-      'FtotalCost': 0,
-      'FunitCost': 0,
-      'image': 'coyote.jpg'
-    },
+    
   ];
   var myNumber;
   var _FunitCost;
@@ -287,11 +255,11 @@ class _buy_screenState extends State<buy_screen>
   List<TextEditingController> _controllers = [];
   List<TextEditingController> _controllers1 = [];
 
-  int _allocatedBudget = 1000000000000;
+  int _allocatedBudget = 45000000000;
   String _FallocatedBudget = '';
   int _usedBudget = 0;
   int _usedBudget1 = 0;
-  int _allocatedPersonnel = 1443;
+  int _allocatedPersonnel = 57000;
   double _usedPersonnel = 0;
   double _usedPersonnel1 = 0;
   String _usedPersonnel2 = '';

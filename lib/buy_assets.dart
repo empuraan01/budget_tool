@@ -1,10 +1,8 @@
-//import 'dart:nativewrappers/_internal/vm/lib/core_patch.dart';
+
 import 'package:csv/csv.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-//import 'dart:convert';
-//import 'dart:html' as html;
 import 'package:intl/intl.dart';
 import 'dart:io';
 import 'package:file_picker/file_picker.dart';
@@ -25,14 +23,14 @@ class _buy_screenState extends State<buy_screen>
   final List<Map<String, dynamic>> _tableData = [
     {
       'platform': 'USV',
-      'name': '3000 T MUSV',
+      'name': '300 T MUSV',
       'quantity': 0,
       'unitCost': 50000000,
       'tppu': 110.0,
       'tppu1': 110.0,
       'FtotalCost': 0,
       'FunitCost': 0,
-      'image': 'lusv.jpg',
+      'image': '3000TMUSV.jpg',
     },
     {
       'platform': 'USV',
@@ -43,7 +41,7 @@ class _buy_screenState extends State<buy_screen>
       'tppu1': 110.0,
       'FtotalCost': 0,
       'FunitCost': 0,
-      'image': 'seahunter.jpg'
+      'image': '100TMUSV.jpg'
     },
     {
       'platform': 'USV',
@@ -54,7 +52,7 @@ class _buy_screenState extends State<buy_screen>
       'tppu1': 9,
       'FtotalCost': 0,
       'FunitCost': 0,
-      'image': 'cusv.jpg'
+      'image': '6susv.jpg'
     },
     {
       'platform': 'USV',
@@ -65,7 +63,7 @@ class _buy_screenState extends State<buy_screen>
       'tppu1': 9,
       'FtotalCost': 0,
       'FunitCost': 0,
-      'image': 'garc.jpg'
+      'image': '2susv.jpg'
     },
     {
       'platform': 'USV',
@@ -76,7 +74,7 @@ class _buy_screenState extends State<buy_screen>
       'tppu1': 9,
       'FtotalCost': 0,
       'FunitCost': 0,
-      'image': 'triton.jpg'
+      'image': 'sailsusv.jpg'
     },
     {
       'platform': 'UUV',
@@ -87,7 +85,7 @@ class _buy_screenState extends State<buy_screen>
       'tppu1': 220,
       'FtotalCost': 0,
       'FunitCost': 0,
-      'image': 'bluebottle.jpg'
+      'image': 'xlauv.jpg'
     },
     {
       'platform': 'UUV',
@@ -98,7 +96,7 @@ class _buy_screenState extends State<buy_screen>
       'tppu1': 60,
       'FtotalCost': 0,
       'FunitCost': 0,
-      'image': 'orca.jpg'
+      'image': 'luuv.jpg'
     },
     {
       'platform': 'UUV',
@@ -109,7 +107,7 @@ class _buy_screenState extends State<buy_screen>
       'tppu1': 12,
       'FtotalCost': 0,
       'FunitCost': 0,
-      'image': 'speartooth.jpg'
+      'image': 'muuv.jpg'
     },
     {
       'platform': 'UUV',
@@ -120,7 +118,7 @@ class _buy_screenState extends State<buy_screen>
       'tppu1': 12,
       'FtotalCost': 0,
       'FunitCost': 0,
-      'image': 'knifefish.jpg'
+      'image': 'suuv.jpg'
     },
     {
       'platform': 'UAS',
@@ -131,7 +129,7 @@ class _buy_screenState extends State<buy_screen>
       'tppu1': 144,
       'FtotalCost': 0,
       'FunitCost': 0,
-      'image': 'remus300.jpg'
+      'image': 'haleuas.jpg'
     },
     {
       'platform': 'UAS',
@@ -142,7 +140,7 @@ class _buy_screenState extends State<buy_screen>
       'tppu1': 132,
       'FtotalCost': 0,
       'FunitCost': 0,
-      'image': 'mq4.jpg'
+      'image': 'maleuas.jpg'
     },
     {
       'platform': 'UAS',
@@ -153,7 +151,7 @@ class _buy_screenState extends State<buy_screen>
       'tppu1': 100,
       'FtotalCost': 0,
       'FunitCost': 0,
-      'image': 'mq9.jpg'
+      'image': 'cca.jpg'
     },
     {
       'platform': 'UAS',
@@ -164,7 +162,7 @@ class _buy_screenState extends State<buy_screen>
       'tppu1': 6,
       'FtotalCost': 0,
       'FunitCost': 0,
-      'image': 'mq25.jpg'
+      'image': 'suas.jpg'
     },
     
   ];
@@ -646,7 +644,7 @@ class _buy_screenState extends State<buy_screen>
                                   ),
                                   SizedBox(height: 5),
                                   Text(
-                                    'Used Budget: \$${_allocatedBudget - _usedBudget}',
+                                    'Used Budget: \$${_usedBudget}',
                                     style: GoogleFonts.robotoSlab(
                                         fontWeight: FontWeight.bold,
                                         fontSize: 16.0),
@@ -681,7 +679,7 @@ class _buy_screenState extends State<buy_screen>
                                         fontSize: 16.0,
                                       )),
                                   SizedBox(height: 5),
-                                  Text('Used Personnel: $_usedPersonnel2.',
+                                  Text('Used Personnel: $_usedPersonnel2',
                                       style: GoogleFonts.robotoSlab(
                                         fontWeight: FontWeight.bold,
                                         fontSize: 16.0,
